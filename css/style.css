@@ -1,0 +1,606 @@
+@charset "utf-8";
+
+.sp_only{
+    display: none;
+}
+
+body{
+    background:#333;
+	color: #fff;
+	font-size:1rem;
+	line-height:1.85;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+	word-wrap: break-word;
+}
+
+
+ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+
+a{
+	color: #fff;
+    outline: none;
+    text-decoration: none;
+}
+
+a:hover,
+a:active{
+	text-decoration: none;
+}
+
+#header{
+    z-index: 999;
+    top: 0px;
+    right: 0px;
+    position: fixed;
+    z-index: 9999;
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.header-item {
+    font-size: 1.2rem;
+    margin: 0 1rem;
+}
+
+.header-item a:hover{
+    opacity: 0.7;
+}
+
+
+#sns-icon img{
+    width: 20px;
+}
+
+#sns-icon{
+    position: fixed;
+    right:10px;
+    top:60px;
+    display: flex;
+}
+
+#sns-icon li{
+     margin:0 10px;
+}
+
+#sns-icon a{
+    transition: all .10s;
+}
+
+#sns-icon a:hover{
+    opacity: 0.7;
+}
+
+#slider{
+  width: 100%;
+  height: 100vh;
+}
+
+
+.heading-block{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+}
+
+.heading-block h1{
+    font-family: 'La Belle Aurore', cursive;
+    font-weight: normal;
+    font-size:8vw;
+    line-height: 2;
+    letter-spacing: 0.05em;
+    color: #fff;
+}
+
+.heading-block p{
+    font-size:2vw;
+    letter-spacing: 0.5em;
+}
+
+.sec01 {
+    margin: 30px 50px 0;
+    padding: 0 16px;
+}
+
+.sec01 h1{
+    font-size: 8vw;
+    font-family: 'La Belle Aurore', cursive;
+    color: #fff;
+    text-align: center;
+    padding-top: 6vw;
+}
+
+.sec01 h2{
+    font-size: 3vw;
+    font-family: 'La Belle Aurore', cursive;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 3vw;
+}
+
+
+.about_wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about_img{
+    width: 60%;
+    padding: 0 30px;
+}
+
+.about_img img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.about_text{
+    width: 40%;
+    color: #fff;
+}
+
+.about_subtitle{
+    font-size: 2.5vw;
+}
+
+.greeting_desc {
+    font-size: 1.5vw;
+}
+.about_career {
+    margin-top: 20px;
+}
+
+.career_item{
+    font-size: 1.5vw;
+}
+
+.sec02 {
+    max-width: 1024px;
+    margin: 30px auto 0;
+    padding: 0 16px;
+}
+
+.sec02 h1{
+    font-size: 8vw;
+    font-family: 'La Belle Aurore', cursive;
+    color: #fff;
+    text-align: center;
+    padding-top: 6vw;
+}
+
+.sec02 h2{
+    font-size: 3vw;
+    font-family: 'La Belle Aurore', cursive;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 3vw;
+}
+
+.skill-list {
+    margin: 60px auto 0;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px 20px;
+}
+
+.skill-item{
+    width: 230px;
+}
+
+
+
+.skill-image {
+    height: 180px;
+    text-align: center;
+}
+
+.skill-name {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.skill-desc {
+    margin-top: 1rem;
+}
+
+.sec03 {
+    margin: 30px 50px 0;
+    padding: 0 16px;
+
+}
+
+.sec03 h1{
+    font-size: 8vw;
+    font-family: 'La Belle Aurore', cursive;
+    color: #fff;
+    text-align: center;
+    padding-top: 6vw;
+}
+
+.sec03 h2{
+    font-size: 3vw;
+    font-family: 'La Belle Aurore', cursive;
+    color: #fff;
+    text-align: center;
+}
+
+.work-list {
+    margin-top: 60px;
+}
+
+.work-item {
+    display: flex;
+    gap: 0 50px;
+    margin-top: 45px;
+}
+
+.work-item.reverse {
+    flex-direction: row-reverse;
+}
+
+.work-image{
+    width: 50%;
+}
+
+
+.work-image img {
+    width: 100%;
+}
+
+.work-text {
+    width: 50%;
+    margin-top: 2rem;
+    padding: 0;
+}
+
+.work-desc {
+    margin-top: 1rem;
+}
+
+.sec04 {
+    margin: 30px 50px 30px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+.sec04 h1{
+    font-size: 8vw;
+    font-family: 'La Belle Aurore', cursive;
+    color: #fff;
+    text-align: center;
+    padding-top: 6vw;
+}
+
+.sec04 h2{
+    font-size: 3vw;
+    font-family: 'La Belle Aurore', cursive;
+    color: #fff;
+    text-align: center;
+}
+
+
+.contact-text {
+    margin-top: 5vw;
+}
+
+.contact-mail {
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #ddd;
+    padding: 30px 16px 10px;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.footer-item a{
+    font-size: 2vw;
+    color: black;
+}
+
+.copyright {
+    margin-top: 2vw;
+    text-align: center;
+    color: black;
+}
+
+@media(max-width:1024px){
+    .skill-list{
+        max-width: 500px;
+    }
+}
+
+
+@media(max-width:768px) {
+
+.pc_only{
+    display:none
+}
+.sp_only{
+    display: block;
+}
+
+  body{
+    font-size:0.8rem;
+  }
+
+.heading-block h1,
+    h2{
+    line-height: 1.5;
+    }
+.heading-block p{
+    letter-spacing: 0.2em;
+    }
+
+#g-nav{
+    position:fixed;
+    z-index: 999;
+	top:0;
+    right: -100%;
+	width:100%;
+    height: 100vh;
+	background: linear-gradient(45deg,rgba(88,182,211,.9),rgba(0,0,0,.9));
+    /*動き*/
+	transition: all 0.6s;
+}
+
+#g-nav.panelactive{
+    right: 0;
+}
+
+#g-nav ul {
+    position: absolute;
+    z-index: 999;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+#g-nav.panelactive #g-nav-list{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+#g-nav li{
+	list-style: none;
+    text-align: center;
+}
+
+#g-nav li a{
+	color: #fff;
+	text-decoration: none;
+	padding:10px;
+	display: block;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-weight: bold;
+    transition: all .5s;
+}
+
+#g-nav li a:hover{
+    color:#ccc;
+}
+
+.openbtn{
+	position:fixed;
+    z-index: 9999;
+	top:10px;
+	right: 10px;
+	cursor: pointer;
+    width: 50px;
+    height:50px;
+}
+
+.openbtn span{
+    display: inline-block;
+    transition: all .4s;
+    position: absolute;
+    left: 14px;
+    height: 3px;
+    border-radius: 2px;
+	background-color: #fff;
+  	width: 45%;
+  }
+
+.openbtn span:nth-of-type(1) {
+	top:15px;
+}
+
+.openbtn span:nth-of-type(2) {
+	top:23px;
+}
+
+.openbtn span:nth-of-type(3) {
+	top:31px;
+}
+
+.openbtn.active span:nth-of-type(1) {
+    top: 18px;
+    left: 18px;
+    transform: translateY(6px) rotate(-45deg);
+    width: 30%;
+}
+
+.openbtn.active span:nth-of-type(2) {
+	opacity: 0;
+}
+
+.openbtn.active span:nth-of-type(3){
+    top: 30px;
+    left: 18px;
+    transform: translateY(-6px) rotate(45deg);
+    width: 30%;
+}
+
+#slider{
+    height: 500px;
+}
+
+
+.sec01{
+    margin: 20px 0 0;
+}
+.about_wrapper{
+    display: block;
+}
+.about_img{
+    width: 100%;
+    padding: 0;
+}
+.about_text{
+    width: 100%;
+    padding: 30px 30px 0 30px;
+    text-align: center;
+}
+
+.about_subtitle{
+    font-size: 4vw;
+}
+
+.greeting_desc {
+    font-size: 2.5vw;
+}
+
+.career_item{
+    font-size: 2.5vw;
+}
+
+
+.slider{
+    width: 94%;
+    margin: 0 auto;
+}
+.slider img{
+    width: 30vw;
+    height: auto;
+    display: flex;
+    margin: 10px auto;
+}
+
+.skill-name{
+    font-size: 5vw;
+}
+
+.skill-desc{
+    margin-top: 0;
+    text-align: center;
+}
+
+.slider .slick-slide{
+    transform: scale(0.5);
+    transition: all .5s;
+    opacity: 0.5;
+}
+
+.slider .slick-slide.slick-center{
+    transform: scale(1);
+    opacity: 1;
+}
+
+.slick-prev,
+.slick-next{
+    position: absolute;
+    top: 42%;
+    cursor: pointer;
+    outline: none;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    height: 15px;
+    width: 15px;
+}
+
+.slick-prev{
+    left: -1.5%;
+    transform: rotate(-135deg);
+}
+
+.slick-next{
+    right: -1.5%;
+    transform: rotate(45deg);
+}
+
+.slick-dots{
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+.slick-dots li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.slick-dots button{
+    color: transparent;
+    outline: none;
+    width: 8px;
+    height: 8px;
+    display: block;
+    border-radius: 50%;
+    background: #ccc;
+}
+
+.slick-dots .slick-active button{
+    background: #fff;
+}
+
+.sec03{
+    margin: 20px 10px 0;
+    padding: 0;
+}
+
+.work-list {
+    margin-top: 0px;
+}
+
+.work-item {
+    display: block;
+    gap: 0 ;
+}
+
+.work-image {
+    width: 100%;
+}
+
+.work-text {
+    width: 100%;
+    padding: 0 16px;
+}
+
+.footer-list{
+    width: 70%;
+}
+
+
+
+
+}

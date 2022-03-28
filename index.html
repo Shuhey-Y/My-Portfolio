@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My-Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Baskervville%7CLa+Belle+Aurore&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.4/vegas.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+  <div id="header">
+      <ul class="header-list pc_only">
+        <li class="header-item">
+          <a href="#about">About Me</a>
+        </li>
+        <li class="header-item">
+          <a href="#skills">Skills</a>
+        </li>
+        <li class="header-item">
+          <a href="#works">Works</a>
+        </li>
+        <li class="header-item">
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+      <ul id="sns-icon">
+        <li><a href="https://www.instagram.com/yoshinagashuhey"><img src="svg/ico_insta.svg" alt="Instagram"></a></li>
+        <li><a href="https://www.facebook.com/shuhey.yoshinaga"><img src="svg/ico_fb.svg" alt="Facebook"></a></li>
+      </ul>
+    </div>
+    <div class="sp_only">
+    <div class="openbtn"><span></span><span></span><span></span></div>
+    <nav id="g-nav">
+      <div id="g-nav-list">
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#skills">Skill</a></li>
+          <li><a href="#works">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+    <div id="slider">
+      <div class="heading-block">
+        <h1 class="blurTrigger">My-Portfolio</h1>
+        <p class="blurTrigger">Shuhei Yoshinaga</p>
+      </div>
+    </div>
+  </header>
+
+<main>
+
+  <section class="sec01" id="about">
+    <h1>About Me</h1>
+    <h2>私について</h2>
+    <div class="about_wrapper">
+      <div class=" about_img">
+        <img src="img/about_me.jpg" alt="abut_me">
+      </div>
+    <div class="about_text">
+      <div class="about_greeting">
+        <h3 class="about_subtitle">ご挨拶</h3>
+        <p class="greeting_desc">
+            ご訪問いただきありがとうございます。エンジニアとして活動しております吉永と申します。<br>
+            お客様とのコミュニケーションを大切にし、１つ１つの案件を丁寧に制作いたします。
+        </p>
+      </div>
+
+      <div class="about_career">
+        <h3 class="about_subtitle">経歴</h3>
+        <ul class="career_list">
+          <li class="career_item">1987年生まれ、宮崎県県出身</li>
+          <li class="career_item">2011年福岡大学経済学部を卒業</li>
+          <li class="career_item">2011年〜一部上場スポーツ小売業にて店舗運営・マネジメントを習得</li>
+          <li class="career_item">現在はフリーランスのエンジニアとして活動中</li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="sec02" id="skills">
+        <h1>Skills</h1>
+        <h2>使用スキル</h2>
+
+    <ul class="skill-list pc_only">
+      <li class="skill-item">
+        <div class="skill-image">
+          <img src="img/logo-html.png" alt="html">
+        </div>
+        <h3 class="skill-name">HTML</h3>
+        <p class="skill-desc">
+              SEOを意識したコーディングを行い、信頼できるサイトを制作します。
+        </p>
+      </li>
+
+      <li class="skill-item">
+        <div class="skill-image">
+          <img src="img/logo-css.png" alt="css">
+        </div>
+        <h3 class="skill-name">CSS</h3>
+        <p class="skill-desc">
+              誰が見てもわかりやすい、シンプルなマークアップを心がけています。
+        </p>
+      </li>
+
+      <li class="skill-item">
+        <div class="skill-image">
+          <img src="img/logo-javascript.png" alt="javascript">
+        </div>
+        <h3 class="skill-name">Java Script</h3>
+        <p class="skill-desc">
+            モダンなアニメーション・動きを、お客様の要望に合わせ実装します。
+        </p>
+      </li>
+
+      <li class="skill-item">
+        <div class="skill-image">
+          <img src="img/logo-bootstrap.png" alt="bootstrap">
+        </div>
+        <h3 class="skill-name">Bootstrap</h3>
+        <p class="skill-desc">
+            サイトの用途に合わせて、柔軟にデザイン・レイアウトを構成します。
+        </p>
+      </li>
+    </ul>
+
+    <ul class="slider sp_only">
+      <li><img src="img/logo-html.png" alt="html">
+      <h3 class="skill-name">HTML</h3>
+      <p class="skill-desc">
+            SEOを意識したコーディングを行い、<br>
+            信頼できるサイトを制作します。
+      </p></li>
+      <li><img src="img/logo-css.png" alt="css">
+      <h3 class="skill-name">CSS</h3>
+      <p class="skill-desc">
+            誰が見てもわかりやすい、<br>
+            シンプルなマークアップを心がけています。
+      </p></li>
+      <li><img src="img/logo-javascript.png" alt="javascript">
+      <h3 class="skill-name">Java Script</h3>
+      <p class="skill-desc">
+          モダンなアニメーション・動きを、<br>
+          お客様の要望に合わせ実装します。
+      </p></li>
+      <li><img src="img/logo-bootstrap.png" alt="bootstrap">
+      <h3 class="skill-name">Bootstrap</h3>
+      <p class="skill-desc">
+          サイトの用途に合わせて、<br>
+          柔軟にデザイン・レイアウトを構成します。
+      </p></li>
+    </ul>
+  </section>
+
+  <section class="sec03" id="works">
+      <h1>Works</h1>
+      <h2>制作実績</h2>
+    <ul class="work-list">
+      <li class="work-item">
+        <div class="work-image">
+          <a href=""><img src="img/My-Portfolio.png" alt="My-Portfolio"></a>
+        </div>
+
+        <div class="work-text">
+          <p class="work-title">タイトル：My Portfolio</p>
+          <p class="work-skill">使用技術：HTML,CSS,Java Script</p>
+          <p class="work-time">制作期間：約1週間</p>
+          <p class="work-desc">私のポートフォリオになります。シンプルさと分かりやすさを意識して制作いたしました。</p>
+        </div>
+      </li>
+
+      <li class="work-item reverse">
+        <div class="work-image">
+          <a href=""><img src="img/BasketballShoes.png" alt="BasketballShoes"></a>
+        </div>
+        <div class="work-text">
+          <p class="work-title">タイトル：スニーカーサイト</p>
+          <p class="work-skill">使用技術：HTML,CSS,Java Script,Bootstrap</p>
+          <p class="work-time">制作期間：約1週間</p>
+          <p class="work-desc">バッシュやスニーカーを紹介するサイトを作成しました。</p>
+        </div>
+      </li>
+
+      <li class="work-item">
+        <div class="work-image">
+          <a href=""><img src="img/Okinawa.png" alt="okinawa"></a>
+        </div>
+        <div class="work-text">
+          <p class="work-title">タイトル：Okinawa Walker</p>
+          <p class="work-skill">使用技術：HTML,CSS,Java Script</p>
+          <p class="work-time">制作期間：約２週間</p>
+          <p class="work-desc">現在住んでいる沖縄のおすすめスポットや、美味しいご飯を紹介しているサイトです。</p>
+        </div>
+      </li>
+
+      <li class="work-item reverse">
+        <div class="work-image">
+          <a href=""><img src="img/iSara.png" alt="iSara"></a>
+        </div>
+        <div class="work-text">
+          <p class="work-title">タイトル：iSARA</p>
+          <p class="work-skill">使用技術：HTML,CSS,Java Script</p>
+          <p class="work-time">制作期間：約２週間</p>
+          <p class="work-desc">練習用に作成したiSARAの模写コーディングです。</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+<section class="sec04" id="contact">
+    <h1>Contact</h1>
+    <h2>お問い合せ</h2>
+
+  <div class="contact-text">
+    <p class="contact-message">お問い合わせはこちらまで</p>
+    <p class="contact-mail">shuhey.y@icloud.com</p>
+    <p class="contact-mail">Chatwork  ID : shuhei3545</p>
+  </div>
+
+</section>
+
+</main>
+
+<footer class="footer">
+  <nav>
+    <ul class="footer-list">
+      <li class="footer-item">
+        <a href="#about">About Me</a>
+      </li>
+      <li class="footer-item">
+        <a href="#skills">Skills</a>
+      </li>
+      <li class="footer-item">
+        <a href="#works">Works</a>
+      </li>
+      <li class="footer-item">
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+  <p class="copyright">&copy;2021 My-Portfolio All Rights Reserved.</p>
+</footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.4/vegas.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+</html>
